@@ -111,3 +111,4 @@ E:\UnitySafalata\UnitySafalata\bin\System.Web.Http.WebHost.xml
 E:\UnitySafalata\UnitySafalata\obj\Debug\UnitySafalata.csprojResolveAssemblyReference.cache
 E:\UnitySafalata\UnitySafalata\obj\Debug\UnitySafalata.dll
 E:\UnitySafalata\UnitySafalata\obj\Debug\UnitySafalata.pdb
+E:\Repository\UnitySafalata\UnitySafalata\obj\Debug\UnitySafalata.csprojResolveAssemblyReference.cache

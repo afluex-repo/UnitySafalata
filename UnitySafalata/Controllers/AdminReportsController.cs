@@ -285,6 +285,7 @@ namespace UnitySafalata.Controllers
                             ViewBag.City = ds.Tables[3].Rows[0]["Districtname"].ToString();
 
                             ViewBag.TotalFinalAmount = ds.Tables[1].Rows[0]["TotalFinalAmount"].ToString();
+                            ViewBag.TotalFinalAmount = ds.Tables[1].Rows[0]["TotalFinalAmount"].ToString();
                             ViewBag.TotalFinalAmountWords = ds.Tables[1].Rows[0]["TotalFinalAmountWords"].ToString();
                             ViewBag.PurchaseDate = ds.Tables[0].Rows[0]["UpgradtionDate"].ToString();
                             ViewBag.Name = ds.Tables[0].Rows[0]["Name"].ToString();
