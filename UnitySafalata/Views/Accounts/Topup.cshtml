@@ -50,7 +50,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Package <span style="color: red">*</span></label>
                                 <div class="col-sm-9">
-                                    @Html.DropDownListFor(m => m.Package, new SelectList(ViewBag.ddlProduct, "Value", "Text"), new { @class = "form-control", @onchange = "FillAmount();" })
+                                    @Html.DropDownListFor(m => m.Package, new SelectList(ViewBag.ddlProduct, "Value", "Text"), new { @class = "form-control"})
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label"> Transaction Date <span style="color: red">*</span></label>
                                 <div class="col-sm-9">
-                                    @Html.TextBoxFor(m => m.DDChequeDate, new { @class = "form-control", @placeholder = "Transaction Date" })
+                                    @Html.TextBoxFor(m => m.DDChequeDate, new { @class = "form-control", @placeholder = "Transaction Date" ,@readonly=true})
                                 </div>
                             </div>
                         </div>
